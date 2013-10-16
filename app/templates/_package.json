@@ -1,0 +1,24 @@
+{
+  "name": "<%= _.slugify(appname) %>",
+  "version": "0.0.0",
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "~0.9.1-1",
+    "skylark": "http://gamua.local/npm/skylark.tar.gz",
+    "skylark-tools": "http://gamua.local/npm/skylark-tools.tar.gz",
+    "grunt-ts": "https://github.com/mistaecko/grunt-ts/tarball/master",
+    "concat-sourcemaps": "https://github.com/mistaecko/concat-sourcemaps/tarball/master",
+    "uglify-js": "~2.4.0",
+    "grunt": "*",
+    "grunt-cli": "*",
+    "grunt-contrib-watch": "~0.3.1",
+    "grunt-contrib-uglify": "~0.2.4",
+    "grunt-contrib-concat": "*",
+    "grunt-contrib-copy": "*",
+    "grunt-contrib-clean": "~0.5.0",
+    "express": "*"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  }
+}

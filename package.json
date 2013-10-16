@@ -1,0 +1,35 @@
+{
+  "name": "generator-skylark",
+  "version": "0.0.1",
+  "description": "Create an empty Skylark project from scratch.",
+  "keywords": [
+    "yeoman-generator",
+    "skylark"
+  ],
+  "homepage": "http://skylark-framework.org/generator-skylark",
+  "bugs": "https://github.com/mistaecko/generator-skylark/issues",
+  "author": "Werner 'Sam' Loibl <mistaecko@gmail.com>",
+  "main": "app/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mistaecko/generator-skylark.git"
+  },
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "dependencies": {
+    "yeoman-generator": "~0.13.1",
+    "cheerio": "~0.12.1"
+  },
+  "peerDependencies": {
+    "yo": ">=1.0.0-rc.1.1"
+  },
+  "devDependencies": {
+    "mocha": "~1.13.0"
+  },
+  "engines": {
+    "node": ">=0.8.0",
+    "npm": ">=1.2.10"
+  },
+  "license": "BSD"
+}
