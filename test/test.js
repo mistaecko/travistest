@@ -11,7 +11,7 @@ describe('Webapp generator test', function () {
         return done(err);
       }
 
-      this.webapp = helpers.createGenerator('skylark:app', [
+      this.webapp = helpers.createGenerator('travistest:app', [
         '../app', [
           helpers.createDummyGenerator(),
           'mocha:app'

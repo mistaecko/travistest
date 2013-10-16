@@ -6,13 +6,13 @@
     "yeoman-generator",
     "skylark"
   ],
-  "homepage": "http://skylark-framework.org/generator-skylark",
-  "bugs": "https://github.com/mistaecko/generator-skylark/issues",
+  "homepage": "http://skylark-framework.org/travistest",
+  "bugs": "https://github.com/mistaecko/travistest/issues",
   "author": "Werner 'Sam' Loibl <mistaecko@gmail.com>",
   "main": "app/index.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/mistaecko/generator-skylark.git"
+    "url": "git://github.com/mistaecko/travistest.git"
   },
   "scripts": {
     "test": "mocha --reporter spec"
