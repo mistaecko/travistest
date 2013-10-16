@@ -31,5 +31,6 @@
     "node": ">=0.8.0",
     "npm": ">=1.2.10"
   },
-  "license": "BSD"
+  "license": "BSD",
+  "readmeFilename": "README.md"
 }
