@@ -15,7 +15,7 @@
     "url": "git://github.com/mistaecko/travistest.git"
   },
   "scripts": {
-    "test": "node node_modules/mocha/bin/mocha --reporter spec"
+    "test": "mocha"
   },
   "dependencies": {
     "yeoman-generator": "~0.13.1",
