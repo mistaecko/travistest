@@ -3,6 +3,6 @@ node_js:
   - '0.10'
 before_script:
   - "npm -q install -g https://github.com/mistaecko/testem/raw/chrome_no_sandbox/testem-0.5.4.tgz"
-  - "node node_modules\testem\testem.js --version"
+  - "node node_modules/testem/testem.js --version"
   - "export DISPLAY=:99.0"
   - "sh -e /etc/init.d/xvfb start"
