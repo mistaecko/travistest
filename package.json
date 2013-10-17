@@ -15,7 +15,7 @@
     "url": "git://github.com/mistaecko/travistest.git"
   },
   "scripts": {
-    "test": "testem ci -l Firefox"
+    "test": "testem ci -l Chromium"
   },
   "dependencies": {
     "yeoman-generator": "~0.13.1",
