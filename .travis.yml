@@ -3,7 +3,7 @@ node_js:
   - '0.10'
 before_script:
   - "npm -q install -g https://github.com/mistaecko/testem/raw/chrome_no_sandbox/testem-0.5.4.tgz"
-  - "ls /home/travis/.nvm/v0.10.12/bin/"
+  - "ls -l /home/travis/.nvm/v0.10.12/bin/"
   - "/home/travis/.nvm/v0.10.12/bin/testem --version"
   - "testem --version"
   - "export DISPLAY=:99.0"
