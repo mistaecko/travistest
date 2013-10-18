@@ -15,7 +15,7 @@
     "url": "git://github.com/mistaecko/travistest.git"
   },
   "scripts": {
-    "test": "node node_modules/testem/testem.js ci -l Chromium"
+    "test": "node node_modules/testem/testem.js ci"
   },
   "dependencies": {
     "yeoman-generator": "~0.13.1",
@@ -28,7 +28,7 @@
     "mocha": "~1.13.0"
   },
   "engines": {
-    "node": ">=0.8.0",
+    "node": ">=0.10.0",
     "npm": ">=1.2.10"
   },
   "license": "BSD",

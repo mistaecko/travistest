@@ -5,7 +5,7 @@ serve_files:
   - lib/sinonjs/sinon-1.7.1.js
   - node_modules/sinon-chai/lib/sinon-chai.js
   - test/**/*Tests.js
-#launchers:
-#  Chromium:
-#    command: "mocha -R tap test/*_test.js"
-#    protocol: "tap"
+launchers:
+    SL_Chrome:
+        command: node lib/saucelauncher-webdriver.js --browserNameSL="chrome" --versionSL="" --platformSL="Linux"
+launch_in_ci: [Firefox, Chrome]
