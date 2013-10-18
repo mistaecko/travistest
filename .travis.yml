@@ -11,7 +11,7 @@ before_script:
   - "sh -e /etc/init.d/xvfb start"
 script:
   - testem ci -l Firefox
-  - testem ci --port 8080 -l SL_Chrome
+#  - testem ci --port 8080 -l SL_Chrome
 env:
   global:
     - secure: "eCp3k36c1uFw8wtcqKvqfU6cjSHczOX64kcJHG0Huc8Hw6PsCt6C1LQwHVsSpDNZhdfHewQrjNku+pufmiw9peim3YN2JLlJIGRshgUHW3t2BiJZt8RapfJj6gxAfc6H/9Zhe3RrKssqtsVakExNwrQSNOb42jvCJ/biqonku/Y="
